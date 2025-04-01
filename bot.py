@@ -11,8 +11,8 @@ import os
 load_dotenv()
 
 # Load API keys
-TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+TELEGRAM_BOT_TOKEN = os.getenv("7587526157:AAH74xksIwNH4guIbf10_2q2U9ybZM2Ae0g")
+OPENAI_API_KEY = os.getenv("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")
 
 # Initialize OpenAI
 openai.api_key = OPENAI_API_KEY
